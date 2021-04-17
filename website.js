@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
     downloadButton.remove();
 
     let mainText = document.getElementById("main-text");
-    mainText.innerText = "get rolled lol";
+    mainText.innerText = "never trust random download links";
 
     setTimeout(() => {
       mainText.style.display = "none";
@@ -38,6 +38,6 @@ window.addEventListener("load", () => {
 
       video.appendChild(videoSource);
       main.appendChild(video);
-    }, 1500);
+    }, 3000);
   }
 });
