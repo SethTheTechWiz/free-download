@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
     downloadButton.remove();
 
     let mainText = document.getElementById("main-text");
-    mainText.innerText = "april fools";
+    mainText.innerText = "get rolled lol";
 
     setTimeout(() => {
       mainText.style.display = "none";
